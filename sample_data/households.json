@@ -1,0 +1,52 @@
+[
+  {
+    "_id": "H001",
+    "name": "Demo Household A",
+    "area": "Kawempe",
+    "location": {
+      "zone": "Zone 1",
+      "landmark": "Demo landmark 1"
+    },
+    "preferred_day": "Monday"
+  },
+  {
+    "_id": "H002",
+    "name": "Demo Household B",
+    "area": "Bwaise",
+    "location": {
+      "zone": "Zone 2",
+      "landmark": "Demo landmark 2"
+    },
+    "preferred_day": "Tuesday"
+  },
+  {
+    "_id": "H003",
+    "name": "Demo Household C",
+    "area": "Kanyanya",
+    "location": {
+      "zone": "Zone 3",
+      "landmark": "Demo landmark 3"
+    },
+    "preferred_day": "Wednesday"
+  },
+  {
+    "_id": "H004",
+    "name": "Demo Household D",
+    "area": "Kisaasi",
+    "location": {
+      "zone": "Zone 4",
+      "landmark": "Demo landmark 4"
+    },
+    "preferred_day": "Thursday"
+  },
+  {
+    "_id": "H005",
+    "name": "Demo Household E",
+    "area": "Ntinda",
+    "location": {
+      "zone": "Zone 5",
+      "landmark": "Demo landmark 5"
+    },
+    "preferred_day": "Friday"
+  }
+]

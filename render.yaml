@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: community-waste-collection
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn cloud:application --bind 0.0.0.0:$PORT --workers 1 --threads 4 --timeout 60
+    healthCheckPath: /healthz
+    envVars:
+      - key: MONGODB_URI
+        sync: false
+      - key: APP_PASSWORD
+        sync: false
+      - key: APP_USERNAME
+        value: lecturer
+      - key: WASTE_DATABASE
+        value: enoch_1012_community_waste_midsem

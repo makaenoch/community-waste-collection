@@ -1,0 +1,47 @@
+[
+  {
+    "_id": "C001",
+    "name": "Demo Collector A",
+    "service_areas": [
+      "Kawempe"
+    ],
+    "vehicle_code": "DEMO-01",
+    "active": true
+  },
+  {
+    "_id": "C002",
+    "name": "Demo Collector B",
+    "service_areas": [
+      "Bwaise"
+    ],
+    "vehicle_code": "DEMO-02",
+    "active": true
+  },
+  {
+    "_id": "C003",
+    "name": "Demo Collector C",
+    "service_areas": [
+      "Kanyanya"
+    ],
+    "vehicle_code": "DEMO-03",
+    "active": true
+  },
+  {
+    "_id": "C004",
+    "name": "Demo Collector D",
+    "service_areas": [
+      "Kisaasi"
+    ],
+    "vehicle_code": "DEMO-04",
+    "active": true
+  },
+  {
+    "_id": "C005",
+    "name": "Demo Collector E",
+    "service_areas": [
+      "Ntinda"
+    ],
+    "vehicle_code": "DEMO-05",
+    "active": true
+  }
+]

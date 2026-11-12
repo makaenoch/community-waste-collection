@@ -1,0 +1,57 @@
+[
+  {
+    "_id": "R001",
+    "household_id": "H001",
+    "collector_id": "C001",
+    "waste_type": "organic",
+    "bags": 1,
+    "requested_at": {
+      "$date": "2026-10-12T08:00:00Z"
+    },
+    "status": "completed"
+  },
+  {
+    "_id": "R002",
+    "household_id": "H002",
+    "collector_id": "C002",
+    "waste_type": "mixed",
+    "bags": 2,
+    "requested_at": {
+      "$date": "2026-10-12T08:00:00Z"
+    },
+    "status": "completed"
+  },
+  {
+    "_id": "R003",
+    "household_id": "H003",
+    "collector_id": "C003",
+    "waste_type": "plastic",
+    "bags": 3,
+    "requested_at": {
+      "$date": "2026-10-13T08:00:00Z"
+    },
+    "status": "pending"
+  },
+  {
+    "_id": "R004",
+    "household_id": "H004",
+    "collector_id": "C004",
+    "waste_type": "mixed",
+    "bags": 4,
+    "requested_at": {
+      "$date": "2026-10-13T08:00:00Z"
+    },
+    "status": "scheduled"
+  },
+  {
+    "_id": "R005",
+    "household_id": "H005",
+    "collector_id": "C005",
+    "waste_type": "paper",
+    "bags": 5,
+    "requested_at": {
+      "$date": "2026-10-14T08:00:00Z"
+    },
+    "status": "pending"
+  }
+]

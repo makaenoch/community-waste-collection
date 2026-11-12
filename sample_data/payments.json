@@ -1,0 +1,51 @@
+[
+  {
+    "_id": "P001",
+    "request_id": "R001",
+    "household_id": "H001",
+    "amount_ugx": 10000,
+    "method": "mobile_money",
+    "status": "paid",
+    "paid_at": {
+      "$date": "2026-10-14T08:00:00Z"
+    }
+  },
+  {
+    "_id": "P002",
+    "request_id": "R002",
+    "household_id": "H002",
+    "amount_ugx": 15000,
+    "method": "mobile_money",
+    "status": "paid",
+    "paid_at": {
+      "$date": "2026-10-14T08:00:00Z"
+    }
+  },
+  {
+    "_id": "P003",
+    "request_id": "R003",
+    "household_id": "H003",
+    "amount_ugx": 8000,
+    "method": "cash",
+    "status": "unpaid",
+    "paid_at": null
+  },
+  {
+    "_id": "P004",
+    "request_id": "R004",
+    "household_id": "H004",
+    "amount_ugx": 12000,
+    "method": "cash",
+    "status": "unpaid",
+    "paid_at": null
+  },
+  {
+    "_id": "P005",
+    "request_id": "R005",
+    "household_id": "H005",
+    "amount_ugx": 10000,
+    "method": "cash",
+    "status": "unpaid",
+    "paid_at": null
+  }
+]
