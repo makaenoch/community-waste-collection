@@ -35,7 +35,9 @@ def health():
     try:
         core.client.admin.command('ping')
         return jsonify(status='ok')
-    except PyMongoError: return jsonify(status='unavailable'),503
+        except PyMongoError as exc:
+        application.logger.warning("MongoDB health check failed: %s (code %s)", type(exc).__name__, getattr(exc, "code", None))
+        return jsonify(status="unavailable"), 503
 
 @application.get('/')
 def home():
